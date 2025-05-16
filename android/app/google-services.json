@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "322894691539",
+    "firebase_url": "https://orion-17da1.firebaseio.com",
+    "project_id": "orion-17da1",
+    "storage_bucket": "orion-17da1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322894691539:android:609e2fc5becc862b",
+        "android_client_info": {
+          "package_name": "com.syra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322894691539-u7r3uq3cf7tllvmmudq0rc0vcvqr2rft.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.syra",
+            "certificate_hash": "fb3df44bbb333b25c8047546d3d8b266f2e5ef1c"
+          }
+        },
+        {
+          "client_id": "322894691539-97siskveqb1l8fpqov5eqf2h6mk9pr2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPPdxmUvjOGU2QAI37G3pa4Gj5UGIFtzg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322894691539-97siskveqb1l8fpqov5eqf2h6mk9pr2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

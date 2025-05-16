@@ -1,0 +1,36 @@
+name: 🚀 New Feature
+description: Request a new capability or enhancement.
+title: "[Feature] "
+labels: [feature]
+body:
+  - type: textarea
+    id: story
+    attributes:
+      label: ✨ What’s the story?
+      description: Describe the feature in a short story — who needs it, what they need, and why.
+      placeholder: |
+        Example:
+        As a returning user, I want to resume where I left off so I don’t waste time retracing steps.
+    validations:
+      required: true
+
+  - type: textarea
+    id: done
+    attributes:
+      label: ✅ When is this done?
+      description: What should happen for this feature to be considered complete?
+      placeholder: |
+        - User is redirected to last session page
+        - State is auto-loaded from storage
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: 🧠 Notes / References
+      description: Optional links, mockups, code ideas, or related tickets.
+      placeholder: |
+        Figma link, GitHub issue #23, etc.
+    validations:
+      required: false

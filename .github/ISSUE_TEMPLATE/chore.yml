@@ -1,0 +1,36 @@
+name: 🧹 Chore / Maintenance
+description: Internal dev task or cleanup.
+title: "[Chore] "
+labels: [chore, enhancement]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: 🧩 What needs to be done?
+      description: Describe the task clearly and concisely.
+      placeholder: |
+        Update ESLint config to fix false positives with the new React rules.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: 💡 Why now?
+      description: Optional context or reason for urgency.
+      placeholder: |
+        Project upgrade is blocked, or we're seeing CI errors.
+    validations:
+      required: false
+
+  - type: textarea
+    id: subtasks
+    attributes:
+      label: ✅ Checklist (Optional)
+      description: Add specific steps or checks if helpful.
+      placeholder: |
+        - [ ] Update config
+        - [ ] Run linter on all files
+        - [ ] Commit fix
+    validations:
+      required: false

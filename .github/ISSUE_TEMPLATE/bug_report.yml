@@ -1,0 +1,46 @@
+name: 🐞 Bug Report
+description: Report something broken or weird.
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 😕 What happened?
+      description: Tell the bug story like you're the user.
+      placeholder: |
+        I tried to log in with Google and the page froze with no error.
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-should-happen
+    attributes:
+      label: 🤔 What should’ve happened?
+      description: Describe the expected behavior.
+      placeholder: |
+        After clicking “Login with Google”, I should be signed in and redirected.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 🔍 How to reproduce it
+      description: Include steps or a gif if possible.
+      placeholder: |
+        1. Go to /login
+        2. Click “Google Login”
+        3. Observe freeze
+    validations:
+      required: true
+
+  - type: input
+    id: env
+    attributes:
+      label: 💻 Environment (Optional)
+      description: Browser, OS, device or app version
+      placeholder: "e.g. Safari 17 on iPhone 15"
+    validations:
+      required: false
+

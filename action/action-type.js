@@ -1,0 +1,1 @@
+export const SET_CURRRENT_USER = "SET_CURRENT_USER";
